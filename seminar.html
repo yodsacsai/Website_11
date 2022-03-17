@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css"
+    />
+  </head>
+  <body>
+    <div class="uk-padding">
+        <h1 id="head">คำนวณค่าสัมมนา</h1>
+
+        <div id="bannerposition">
+            <img id="banner" src="./images/banner.jpg" alt="">
+        
+      
+        <hr id="seperator">
+
+        <form action="">
+          <input type="radio" checked name="typeseminar" id="" class="uk-radio" value="700.50">
+          Adobe Photoshop (คนละ 700.50) <br>
+          <input type="radio" name="typeseminar" id="" class="uk-radio" value="900.50">
+          3D MAX (คนละ 900.50) <br>
+          <input type="radio" name="typeseminar" id="" class="uk-radio" value="1200">
+          Adobe Dreamweaver (คนละ 1200.00) <br><br>
+          ป้อนจำนวนคนที่จะเข้าสัมมนา
+          <input class="uk-input uk-width-1-4" type="number" id="personseminar">
+          <hr>
+          เลือกแบบการชำระ
+          <select class="uk-select uk-form-width-small" name="sale" id="">
+            <option value="0" selected>ไม่มีส่วนลด</option>
+            <option value="0.01">ลด 1%</option>
+            <option value="0.03">ลด 3%</option>
+            <option value="0.05">ลด 5%</option>
+          </select>
+          <br><br>
+          <button id="btncal" class="uk-button uk-button-primary">คำนวณ</button>
+
+        </form>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="./js/script.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
+  </body>
+</html>
